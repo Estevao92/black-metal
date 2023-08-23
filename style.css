@@ -1,0 +1,216 @@
+:root {
+    --fonte-um: 'Rubik Wet Paint', cursive;
+    --fonte-dois: 'Cinzel', serif;
+    --preto: #000000;
+    --branco: #f5f5f5;
+    --sangue: #880808;
+}
+
+body {
+    background: var(--preto);
+}
+
+/*CABEÇALHO*/
+header {
+    font-family: var(--fonte-um);
+    color: var(--branco);
+    text-align: center;
+}
+
+.ancoras {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+header .ancoras:hover {
+    color: var(--sangue);
+}
+
+header h1 {
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+header li {
+    display: inline-flex;
+    justify-content: center;
+    padding: 10px 8px;
+    font-size: 20px;    
+}
+
+@media (min-width: 650px) {
+    header h1 {
+        font-size: 70px; 
+        padding: 15px 0;       
+    }
+
+    header li {
+        padding: 15px 10px;
+        font-size: 35px;    
+    }
+}
+
+@media (min-width: 1000px) {
+    header h1 {
+        font-size: 90px; 
+        padding: 20px 0;       
+    }
+
+    header li {
+        padding: 20px 30px;
+        font-size: 45px;    
+    }
+}
+
+/*IMAGENS*/
+.img-principal {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.imagens-albuns {
+    height: 250px;
+    width: 250px;    
+}
+
+@media (min-width: 650px) {
+    .imagens-albuns {
+        height: 350px;
+        width: 350px;    
+    }
+}
+
+@media (min-width: 1000px) {
+    .imagens-albuns {
+        height: 500px;
+        width: 500px;    
+    }
+}
+
+/*HISTÓRIA*/
+.historia {
+    color: var(--branco);
+    font-family: var(--fonte-dois);    
+}
+
+.titulos {
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+.subtitulos:hover {
+    color: var(--sangue);
+}
+
+.subtitulos {
+    font-size: 35px;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: var(--fonte-um);
+}
+
+.paragrafos {
+    padding: 20px 20px;
+    font-size: 20px;  
+    line-height: 1.5em;  
+}
+
+@media (min-width: 650px) {
+    .titulos {
+        font-size: 50px;
+        padding: 25px 0;
+    }
+
+    .subtitulos {
+        font-size: 40px;
+        padding: 15px 20px;
+    }
+
+    .paragrafos {
+        padding: 20px 20px;
+        font-size: 25px;          
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .titulos {
+        font-size: 60px;
+        padding: 25px 0;
+    }
+
+    .subtitulos {
+        font-size: 45px;
+        padding: 15px 20px;
+    }
+
+    .paragrafos {
+        padding: 20px 35px; 
+        font-weight: 500;
+    }
+}
+
+/*CITAÇÕES WIKIPÉDIA*/
+.wikipedia {
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 20px;
+    font-family: var(--fonte-um);
+    padding: 20px;
+}
+
+.wikipedia:hover {
+    color: var(--sangue);
+}
+
+@media (min-width: 650px) {
+    .wikipedia {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .wikipedia {
+        font-size: 30px;
+    }
+}
+
+/*BANDAS*/
+.bandas {
+    color: var(--branco);
+    font-family: var(--fonte-dois);
+}
+
+/*DOCUMENTARIOS*/
+
+.documentarios {
+    color: var(--branco);
+    font-family: var(--fonte-dois);
+}
+
+.videos {
+    display: flex;
+    align-items: center;    
+    padding: 20px 20px;
+}
+
+@media (min-width: 1000px) {
+    .videos {
+        padding: 20px 250px;
+    }
+}
+
+/*RODAPÉ*/
+footer {
+    color: var(--branco);
+    font-family: var(--fonte-um);
+    font-size: 20px;
+    text-align: center;
+    padding: 40px 0;    
+}
+
+footer:hover {
+    color: var(--sangue);
+}
